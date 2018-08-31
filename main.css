@@ -1,0 +1,59 @@
+/* applies to anything of class "example-class-selector" */
+.example-class-selector {
+	margin-top: 2em;
+}
+
+/* applies to any <p> descendants of an element of class "example-class-selector" */
+.example-class-selector p {
+	/* Colors are in hexadecimal: http://www.colorpicker.com/ */
+	color: #CC00AA;
+}
+
+/* this style exists to make it obvious that you've successfully linked
+   the CSS to the page. feel free to remove it once the link is working. */
+body {
+     border: 1px;
+     padding: 20px;
+     background-color: #BFE8F5;
+}
+
+.jumbotron-container {
+	position: relative;
+     margin-top: 50px;
+     margin-bottom: 20px;
+     padding: 20px;
+}
+
+h1 {
+    font-family: Calibri;
+    color: #2AB1DE;
+}
+
+.img-thumbnail {
+    margin-left: 50px;
+}
+
+h2 {
+    margin-left: 150px;
+    font-family: Calibri;
+    color: #2AB1DE;
+}
+
+h3 {
+    font-family: Calibri;
+    color: #2AB1DE;
+    margin-top: 50px;
+    margin-right: 900px;
+}
+
+h4 {
+    margin-left: 150px;
+    font-family: Calibri;
+    color: #2AB1DE;
+    font-size: 25px;
+}
+
+p {
+    font-family: Times new roman;
+    font-size: 15px;
+}
